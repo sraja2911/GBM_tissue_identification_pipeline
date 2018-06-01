@@ -17,10 +17,13 @@ Information about image morphology can be found at https://en.wikipedia.org/wiki
 
 6. Entropy filtering
 
-7. Tiles identified 
+7. Tiles or ROI identified 
 
-II. Necrotic and MicroVascular proliferation (MVP) identification  pipeline
-All the above identified tissues will be used for 
+
+# II. Necrotic and MicroVascular proliferation (MVP) identification  pipeline
+
+All the above identified tissues/tiles will be used for
+
 1. An automatic cell segmentation, with cell-profile count with Decision tree will be implemented for the Necrosis ("cellular Pseudopalisades") identification
 2. Spatial image filtering, statistical techniques on MVP identification  
 DSA_viewer plug-in will be used for ground truth annotations on these images. Histoclassifier (TensorFlow based Layer multi classifier, will be customized to suit).
